@@ -24,8 +24,6 @@ Table: Address
 AddressId is the primary key column for this table.
 
 #Solution:
-FirstName, LastName, City, State
-FirstName, LastName, City, State
 SELECT Person.FirstName, Person.LastName, Address.City, Address.State
 FROM Person
 LEFT JOIN Address ON Person.PersonId = Address.PersonId
